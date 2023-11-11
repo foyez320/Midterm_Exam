@@ -34,28 +34,23 @@ footer {
 
 .image-text-container {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .image-text-container img {
     max-width: 1200%;
     border-radius: 8px;
     margin-bottom: 10px;
+    display: flex;
 }
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
-.flex-container img{
-    flex: 1;
-}
-
-.flex-container p{
-    flex: 1;
-}
 h1 {
-    text-align: center;
+    text-align: right;
     color: #333;
 }
 
