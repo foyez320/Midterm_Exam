@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="Products.css">
+    <style>
+        
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!--Foyez Islam_ID: 1910320-->
+    <header>
+      
+        <h1 style="text-align: center;">Welcome to BD Cars</h1>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Products.html">Products</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <div class="container">
+        <div class="product" id="product1">
+            <img src="Images/Products/Toyota RAV4 PHEV 007_wqi243.webp" alt="">
+            <h2>Toyota RAV4</h2>
+            <p>Price: $3500</p>
+            <p><h4>Description</h4>
+                The Toyota RAV4 (Japanese: トヨタ・RAV4, Hepburn: Toyota Ravufō) is a compact crossover SUV produced by the Japanese automobile manufacturer Toyota. Considered the first ever compact crossover SUV, it made its debut in Japan and Europe in 1994, and in North America in 1995, being launched in January 1996.</p>
+            <label for="quantity1">Quantity:</label>
+            <input type="number" id="quantity1" value="0" min="0" onchange="calculatePrice(1)">
+            <p>Total: $<span id="total1">0</span></p>
+
+            <a href="https://toyota.com.bd/" target="_blank">Buy Now!</a>
+        </div>
+
+        <div class="product" id="product2">
+            <img src="Images/Products/landcruiser_ogp_01.jpg" alt="">
+            <h2>Land Cruiser</h2>
+            <p>Price: $2000</p>
+            <p><h4>Description</h4>
+                Land Cruiser 300 Specs, Features and Price The Diesel engine is 3346 cc . It is available with Automatic transmission. Depending upon the variant and fuel type the Land Cruiser 300 has a mileage of .</p>
+            <label for="quantity2">Quantity:</label>
+            <input type="number" id="quantity2" value="0" min="0" onchange="calculatePrice(2)">
+            <p>Total: $<span id="total2">0</span></p>
+            <a href="https://toyota.com.bd/" target="_blank">Buy Now!</a>
+
+        </div>
+
+        <div class="product" id="product3">
+            <img src="Images/Products/fortuner-exterior-right-front-three-quarter-20.webp" alt="">
+            <h2>Toyota Fortune</h2>
+            <p>Price: $1750</p>
+            <p><h4>Description</h4>
+                The Diesel engine is 2755 cc while the Petrol engine is 2694 cc . It is available with Manual & Automatic transmission. Depending upon the variant and fuel type the Fortuner has a mileage of 10.0 kmpl . The Fortuner is a 7 seater 4 cylinder car and has length of 4795mm, width of 1855mm and a wheelbase of 2745mm.</p>
+            <label for="quantity3">Quantity:</label>
+            <input type="number" id="quantity3" value="0" min="0" onchange="calculatePrice(3)">
+            <p>Total: $<span id="total3">0</span></p>
+            <a href="https://toyota.com.bd/" target="_blank">Buy Now!</a>
+        </div>
+    </div>
+
+    <script src="Products.js">
+        
+    </script>
+</body>
+</html>

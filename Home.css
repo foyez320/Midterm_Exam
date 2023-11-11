@@ -10,7 +10,7 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
-    image-resolution: 250px;
+    
 }
 
 footer {
@@ -54,3 +54,4 @@ p {
     color: #555;
     line-height: 1.6;
 }
+
