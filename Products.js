@@ -1,7 +1,7 @@
 function calculatePrice(productId) {
             const price1 = 3500;
             const price2 = 2000;
-            const price3 = 1750;
+            const price3 = 1550;
 
             const quantity = parseInt(document.getElementById(`quantity${productId}`).value);
 
