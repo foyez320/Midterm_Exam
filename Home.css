@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    
 }
 
 header {
@@ -28,6 +29,7 @@ footer {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    display: flex;
 }
 
 .image-text-container {
@@ -45,6 +47,13 @@ footer {
     align-items: center;
 }
 
+.flex-container img{
+    flex: 1;
+}
+
+.flex-container p{
+    flex: 1;
+}
 h1 {
     text-align: center;
     color: #333;
